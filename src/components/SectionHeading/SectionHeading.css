@@ -1,0 +1,23 @@
+.heading {
+  font-size: 42px;
+  text-align: center;
+  font-weight: 600;
+  color: #f2f3f4;
+}
+
+@media (max-width: 768px) {
+  .heading {
+    margin-top: 12px;
+    font-size: 32px;
+  }
+  .sub-heading {
+    font-size: 16px;
+  }
+}
+
+.sub-heading {
+  font-size: 18px;
+  text-align: center;
+  max-width: 600px;
+  color: #b1b2b3;
+}

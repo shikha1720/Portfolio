@@ -34,11 +34,6 @@ export const skills = [
             "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
         },
         {
-          name: "Material UI",
-          image:
-            "https://cdn.worldvectorlogo.com/logos/material-ui-1.svg"
-        },
-        {
           name: "HTML",
           image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
         },

@@ -22,7 +22,7 @@ const Projects = () => {
         {/* <SubTitle subTitle="desc" /> */}
         <div className="projectCardContainer">
           {projects.map((project, index) => (
-            <ProjectCard project={project} setOpenProjectDetails={setOpenProjectDetails}/>
+            <ProjectCard project={project} key={index} setOpenProjectDetails={setOpenProjectDetails}/>
           ))}
         </div>
 

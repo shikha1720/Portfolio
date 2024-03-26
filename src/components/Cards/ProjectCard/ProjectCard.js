@@ -13,7 +13,7 @@ const ProjectCard = ({ project, setOpenProjectDetails }) => {
       <img src={project.image} alt="" className="projectCardImg" />
       <div className="projectCardTags">
         {project.tags?.map((tag, index) => (
-          <div className="projectCardTag">{tag}</div>
+          <div key={tag} className="projectCardTag">{tag}</div>
         ))}
       </div>
       <div className="projectCardContent">

@@ -6,7 +6,7 @@ export const Bio = {
         "Programmer"
     ],
     description: "",
-    github: "https://github.com/",
+    github: "https://github.com/shikha1720",
     //resume : "https://drive.google.com/file/d/12LAzWOlFI6Oyl4ZY9kHAX3OF7VpHFDSD/view?usp=drive_link",
     linkedin : "https://www.linkedin.com/in/shikha-jain-7aa912229",
     leetcode : "https://leetcode.com/jn_17/",

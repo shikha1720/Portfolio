@@ -22,7 +22,7 @@ const Education = () => {
         <div className="education-timeline-section">
           <Timeline>
             {education.map((education,index) => (
-              <TimelineItem>
+              <TimelineItem key={index}>
                 <TimelineSeparator>
                   <TimelineDot variant="outlined" color="secondary" />
                   <TimelineConnector style={{ background: "#854CE6" }} />

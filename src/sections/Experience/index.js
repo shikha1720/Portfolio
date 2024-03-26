@@ -22,7 +22,7 @@ const Experience = () => {
         <div className="experience-timeline-section">
           <Timeline>
             {experiences.map((experience,index) => (
-              <TimelineItem>
+              <TimelineItem key={index}>
                 <TimelineSeparator>
                   <TimelineDot variant="outlined" color="secondary" />
                   <TimelineConnector style={{ background: "#854CE6" }} />

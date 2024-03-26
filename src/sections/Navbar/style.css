@@ -141,7 +141,7 @@ span {
 .githubButtonMobileMenu{
     width: fit-content;
     background-color: var(--primary);
-    color: var(--primary);
+    color: white;
     padding: 10px 17px;
     display: flex;
     align-items: center;

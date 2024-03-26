@@ -21,7 +21,7 @@ const Card = ({experience, education}) => {
             <b>Skills: </b>
             <div className="card-skills-items">
                 {experience?.skills?.map((skill, index) => (
-                    <div className="card-skills-item">• {skill}</div>
+                    <div key={skill} className="card-skills-item">• {skill}</div>
                 ))}
             </div>
         </div>

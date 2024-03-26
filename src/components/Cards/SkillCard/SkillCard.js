@@ -8,7 +8,7 @@ const SkillCard = ({ title, skills }) => {
       <div className="skill-list">
         {skills.map((item) => (
             <div key={item.name} className="skill-item">
-            <img className="skill-img" src={item.image} alt="image"></img>
+            <img className="skill-img" src={item.icon} alt="icon"></img>
                 {item.name}
             </div>
         ))}

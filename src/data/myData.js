@@ -21,30 +21,30 @@ export const skills = [
       skills: [
         {
           name:"Angular",
-          image: "https://th.bing.com/th/id/OIP.gqVlHA9us8MsyCqfscbydgHaFj?rs=1&pid=ImgDetMain",
+          icon: "https://th.bing.com/th/id/OIP.gqVlHA9us8MsyCqfscbydgHaFj?rs=1&pid=ImgDetMain",
         },
         {
           name: "React",
-          image:
+          icon:
             "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
         },
         {
           name: "JavaScript",
-          image:
+          icon:
             "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
         },
         {
           name: "Material UI",
-          image:
+          icon:
             "https://cdn.worldvectorlogo.com/logos/material-ui-1.svg"
         },
         {
           name: "HTML",
-          image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
+          icon: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
         },
         {
           name: "CSS",
-          image:
+          icon:
             "https://cdn.worldvectorlogo.com/logos/css-3.svg",
         },
       ],
@@ -54,19 +54,19 @@ export const skills = [
       skills: [
         {
           name: ".Net Core",
-          image: "https://wpguru.co.uk/wp-content/uploads/2020/04/dotnet-logo.png",
+          icon: "https://wpguru.co.uk/wp-content/uploads/2020/04/dotnet-logo.png",
         },
         {
           name: "MVC",
-          image: "https://www.csharp411.com/wp-content/uploads/2023/05/MVC-Logo-1.jpg",
+          icon: "https://www.csharp411.com/wp-content/uploads/2023/05/MVC-Logo-1.jpg",
         },
         {
           name: "Node.js",
-          image: "https://imgs.search.brave.com/mt3_ltFUor3sJTiWHdmFbORv1QE3PUtM9gsygWvKgFQ/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9zZWVr/bG9nby5jb20vaW1h/Z2VzL04vbm9kZWpz/LWxvZ28tRkJFMTIy/RTM3Ny1zZWVrbG9n/by5jb20ucG5n",
+          icon: "https://imgs.search.brave.com/mt3_ltFUor3sJTiWHdmFbORv1QE3PUtM9gsygWvKgFQ/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9zZWVr/bG9nby5jb20vaW1h/Z2VzL04vbm9kZWpz/LWxvZ28tRkJFMTIy/RTM3Ny1zZWVrbG9n/by5jb20ucG5n",
         },
         {
           name: "Express.js",
-          image: "https://upload.vectorlogo.zone/logos/expressjs/images/a1b5cb1f-dae7-4971-ab5b-68efce751b0f.svg"
+          icon: "https://upload.vectorlogo.zone/logos/expressjs/images/a1b5cb1f-dae7-4971-ab5b-68efce751b0f.svg"
         },
       ],
     },
@@ -75,15 +75,15 @@ export const skills = [
       skills: [
           {
               name: "AWS",
-              image: "https://imgs.search.brave.com/7oeGsrL4dvFxaJETcut1tqHxgfsoiZvN7amgrq7hCUQ/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9sb2dv/cy13b3JsZC5uZXQv/d3AtY29udGVudC91/cGxvYWRzLzIwMjEv/MDgvQW1hem9uLVdl/Yi1TZXJ2aWNlcy1B/V1MtTG9nby03MDB4/Mzk0LnBuZw"
+              icon: "https://imgs.search.brave.com/7oeGsrL4dvFxaJETcut1tqHxgfsoiZvN7amgrq7hCUQ/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9sb2dv/cy13b3JsZC5uZXQv/d3AtY29udGVudC91/cGxvYWRzLzIwMjEv/MDgvQW1hem9uLVdl/Yi1TZXJ2aWNlcy1B/V1MtTG9nby03MDB4/Mzk0LnBuZw"
           },
           {
             name: "Microsoft Azure",
-            image: "https://seeklogo.com/images/M/microsoft-azure-logo-2575D39E82-seeklogo.com.png"
+            icon: "https://seeklogo.com/images/M/microsoft-azure-logo-2575D39E82-seeklogo.com.png"
           },
           {
               name: "Docker",
-              image: "https://imgs.search.brave.com/09xRZm-6uXGnJxTbgcIpehTcFAS1wsE7aZANYHB_oYg/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jZG40/Lmljb25maW5kZXIu/Y29tL2RhdGEvaWNv/bnMvbG9nb3MtYW5k/LWJyYW5kcy81MTIv/OTdfRG9ja2VyX2xv/Z29fbG9nb3MtMTI4/LnBuZw"
+              icon: "https://imgs.search.brave.com/09xRZm-6uXGnJxTbgcIpehTcFAS1wsE7aZANYHB_oYg/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jZG40/Lmljb25maW5kZXIu/Y29tL2RhdGEvaWNv/bnMvbG9nb3MtYW5k/LWJyYW5kcy81MTIv/OTdfRG9ja2VyX2xv/Z29fbG9nb3MtMTI4/LnBuZw"
           },
       ]
   },
@@ -92,44 +92,44 @@ export const skills = [
       skills: [
         {
           name: "Postman",
-          image:
+          icon:
             "https://imgs.search.brave.com/50JDDd4L1QxFtnwMrj6rn158HP4VG0qHPxVKtKvCPn4/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jZG4u/d29ybGR2ZWN0b3Js/b2dvLmNvbS9sb2dv/cy9wb3N0bWFuLnN2/Zw.svg",
         },
         {
           name: "Git",
-          image:
+          icon:
             "https://imgs.search.brave.com/lAxwlnkHcDxoP0r1gPCuufcYNwIjUEG9Inhli0EXaEQ/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9sb2dv/cy1kb3dubG9hZC5j/b20vd3AtY29udGVu/dC91cGxvYWRzLzIw/MjEvMDEvR2l0X0xv/Z28tNzAweDcwMC5w/bmc",
         },
         {
           name: "GitHub",
-          image:
+          icon:
             "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
         },
         {
           name: "GitLab",
-          image:
+          icon:
             "https://cdn.worldvectorlogo.com/logos/gitlab-3.svg",
         },
         {
           name: "VS Code",
-          image:
+          icon:
             "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
         },
         {
           name: "Visual Studio",
-          image: "https://cswsolutions.com/media/1314/ms-visual-studio.jpg",
+          icon: "https://cswsolutions.com/media/1314/ms-visual-studio.jpg",
         },
         {
           name: "Microsoft SQL Server Management Studio",
-          image: "https://www.ubackup.com/screenshot/en/others/ssms/smss-logo.png",
+          icon: "https://www.ubackup.com/screenshot/en/others/ssms/smss-logo.png",
         },
         {
           name: "RabbitMQ",
-          image: "https://download.logo.wine/logo/RabbitMQ/RabbitMQ-Logo.wine.png",
+          icon: "https://download.logo.wine/logo/RabbitMQ/RabbitMQ-Logo.wine.png",
         },
         {
           name: "Eureka Server",
-          image: "https://4.bp.blogspot.com/-trV5mHmQdfE/XBZ8OmhhdwI/AAAAAAAAITA/jcJgWXbOy3AHO89lwV0SIrcepN-3d25BwCLcBGAs/s1600/GvuCOnQi_400x400.jpg",
+          icon: "https://4.bp.blogspot.com/-trV5mHmQdfE/XBZ8OmhhdwI/AAAAAAAAITA/jcJgWXbOy3AHO89lwV0SIrcepN-3d25BwCLcBGAs/s1600/GvuCOnQi_400x400.jpg",
         },
       ],
     },

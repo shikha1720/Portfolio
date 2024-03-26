@@ -1,10 +1,10 @@
 import React from 'react'
-import './style.css'
+import './education.css'
 import Container from '../../components/Container/Container'
 import Wapper from '../../components/Wapper/Wapper'
 import Card from '../../components/Cards/EducationCard/Card'
 import { education } from '../../data/myData'
-import { Heading , SubHeading } from "../../components/SectionHeading/SectionHeading";
+import { Heading } from "../../components/SectionHeading/SectionHeading";
 import Timeline from "@mui/lab/Timeline";
 import TimelineItem from "@mui/lab/TimelineItem";
 import TimelineSeparator from "@mui/lab/TimelineSeparator";

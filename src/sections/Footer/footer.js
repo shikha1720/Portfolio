@@ -1,5 +1,5 @@
 import React from 'react';
-import './style.css';
+import './footer.css';
 import Container from '../../components/Container/Container';
 import Wapper from '../../components/Wapper/Wapper';
 import TwitterIcon from '@mui/icons-material/Twitter';
@@ -20,9 +20,9 @@ const Footer = () => {
           <a href="#education" className="footer-item">Education</a>
         </div>
         <div className="socialMedia-icons">
-          <a href={Bio.linkedin} target="_blank" className="socialMedia-icon"><LinkedInIcon /></a>
-          <a href={Bio.twitter} target="_blank" className="socialMedia-icon"><TwitterIcon /></a>
-          <a href={Bio.leetcode} target="_blank" className="socialMedia-icon"><CodeIcon /></a>
+          <a href={Bio.linkedin} className="socialMedia-icon"><LinkedInIcon /></a>
+          <a href={Bio.twitter} className="socialMedia-icon"><TwitterIcon /></a>
+          <a href={Bio.leetcode} className="socialMedia-icon"><CodeIcon /></a>
         </div>
       </Wapper>
     </Container>

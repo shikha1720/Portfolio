@@ -1,6 +1,5 @@
-import React, { useState } from "react";
+import React from "react";
 import "./ProjectCard.css";
-import ProjectDetailCard from "../ProjectDetailCard/ProjectDetailCard";
 
 const ProjectCard = ({ project, setOpenProjectDetails }) => {
   return (

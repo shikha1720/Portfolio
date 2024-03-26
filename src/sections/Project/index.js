@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import './style.css'
 import Container from '../../components/Container/Container'
 import Wapper from '../../components/Wapper/Wapper'
-import { Heading, SubHeading } from "../../components/SectionHeading/SectionHeading";
+import { Heading } from "../../components/SectionHeading/SectionHeading";
 import ProjectCard from '../../components/Cards/ProjectCard/ProjectCard'
 import ProjectDetailCard from '../../components/Cards/ProjectDetailCard/ProjectDetailCard';
 import { projects } from '../../data/myData'

@@ -1,5 +1,5 @@
 import React from "react";
-import "./style.css";
+import "./herosection.css";
 import HeroBgAnimation from "../../components/HeroBgAnimation/HeroBgAnimation";
 import { Bio } from "../../data/myData";
 import Typewriter from "typewriter-effect";

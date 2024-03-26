@@ -1,15 +1,13 @@
 import "./App.css";
-import { ThemeProvider } from "styled-components";
-import { darkTheme } from "./utils/DisplayThemes";
 import Navbar from "./sections/Navbar/index";
-import Hero from "./sections/HeroSection/index";
+import Hero from "./sections/HeroSection/herosection";
 import Skills from "./sections/Skills/index";
-import Education from "./sections/Education/index";
+import Education from "./sections/Education/education";
 import { BrowserRouter as Router } from "react-router-dom";
 import { Toaster } from "react-hot-toast";
-import Experience from "./sections/Experience/index";
-import Contact from "./sections/Contact/index";
-import Footer from "./sections/Footer/index";
+import Experience from "./sections/Experience/experience";
+import Contact from "./sections/Contact/contact";
+import Footer from "./sections/Footer/footer";
 import Projects from "./sections/Project/index";
 
 function App() {

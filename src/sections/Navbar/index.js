@@ -1,31 +1,31 @@
-import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+import React, { useState } from "react";
 import "./style.css";
+import { Link } from "react-router-dom";
 import { DiCssdeck } from "react-icons/di";
 import { SlMenu as MobileIcon } from "react-icons/sl";
 import { VscChromeClose as CloseIcon } from "react-icons/vsc";
 import { Bio } from "../../data/myData"
 
 const Navbar = () => {
-  const [menu, setMenu] = useState(false);
-  const [show, setShow] = useState("show"); //for scrolling effect
-  const [lastScrollY, setLastScrollY] = useState(0); //for scrolling effect
+   const [menu, setMenu] = useState(false);
+  // const [show, setShow] = useState("show"); //for scrolling effect
+  // const [lastScrollY, setLastScrollY] = useState(0); //for scrolling effect
 
-  useEffect(() => {
-    window.addEventListener("scroll", controlNavbar);
-    return () => {
-      window.removeEventListener("scroll", controlNavbar);
-    };
-  }, [lastScrollY]);
+  // useEffect(() => {
+  //   window.addEventListener("scroll", controlNavbar);
+  //   return () => {
+  //     window.removeEventListener("scroll", controlNavbar);
+  //   };
+  // }, [lastScrollY]);
 
-  const controlNavbar = () => {
-    if (window.scrollY > 250 && window.scrollY > lastScrollY) {
-      setShow("show");
-    } else {
-      setShow("hide");
-    }
-    setLastScrollY(window.scrollY);
-  };
+  //const controlNavbar = () => {
+  //   if (window.scrollY > 250 && window.scrollY > lastScrollY) {
+  //     setShow("show");
+  //   } else {
+  //     setShow("hide");
+  //   }
+  //   setLastScrollY(window.scrollY);
+  // };
 
   return (
     <div className="nav">
@@ -61,7 +61,7 @@ const Navbar = () => {
           </a>
         </div>
         <div className="button-container">
-          <button className="githubButton"><a href={Bio.github} target="_blank">GitHub Profile</a></button>
+          <button className="githubButton"><a href={Bio.github}>GitHub Profile</a></button>
         </div>
 
         {menu && (
@@ -102,7 +102,7 @@ const Navbar = () => {
               Education
             </a>
             <button className="githubButtonMobileMenu">
-              <a href={Bio.github} target="_blank">
+              <a href={Bio.github}>
                 GitHub Profile
               </a>
             </button>

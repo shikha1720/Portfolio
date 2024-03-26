@@ -1,8 +1,8 @@
 import React, { useRef } from "react";
-import "./style.css";
+import "./contact.css";
 import Container from "../../components/Container/Container";
 import Wapper from "../../components/Wapper/Wapper";
-import { Heading, SubHeading } from "../../components/SectionHeading/SectionHeading";
+import { Heading } from "../../components/SectionHeading/SectionHeading";
 import emailjs from "@emailjs/browser";
 import toast from "react-hot-toast";
 

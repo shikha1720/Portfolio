@@ -1,7 +1,5 @@
 import React from "react";
 import "./ProjectDetailCard.css";
-import Container from "../../Container/Container";
-import Wapper from "../../Wapper/Wapper";
 import { Modal } from "@mui/material";
 import { VscChromeClose as CloseIcon } from "react-icons/vsc";
 

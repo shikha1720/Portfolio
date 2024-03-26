@@ -1,6 +1,6 @@
 import React from "react";
-import "./style.css";
-import { Heading, SubHeading } from "../../components/SectionHeading/SectionHeading";
+import "./experience.css";
+import { Heading } from "../../components/SectionHeading/SectionHeading";
 import Card from "../../components/Cards/EducationCard/Card";
 import { experiences } from "../../data/myData";
 import Timeline from "@mui/lab/Timeline";

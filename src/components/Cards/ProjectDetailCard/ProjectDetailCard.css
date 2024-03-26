@@ -28,7 +28,7 @@
 .projectDetailsCardCloseIcon {
   font-size: 1.5rem;
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   margin: 10px 0;
   cursor: pointer;
 }
